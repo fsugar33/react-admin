@@ -1,0 +1,16 @@
+.nav-container {
+  background-color: aqua;
+  .nav-item {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+
+    &.active {
+      color: brown;
+      font-weight: bolder;
+      background-color: antiquewhite;
+    }
+  }
+}
